@@ -1,7 +1,4 @@
 <?php
-if(isset($_GET['go'])) {
-    $site = $_GET['go'];
-error_reporting(0);
 
 function fetchDataFromSite($site) {
     $url = 'https://replication2.pkcdurensawit.net/solusi-machinery/' . $site . '/';
